@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2PJ-eh-kLS">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -124,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVA-j6-nxc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="612" y="188"/>
+            <point key="canvasLocation" x="2431.8840579710145" y="187.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dRW-75-oca">
@@ -192,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s80-jg-Xgo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1324.6376811594205" y="187.5"/>
+            <point key="canvasLocation" x="3144.9275362318845" y="187.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QIh-KQ-rh0">
@@ -294,24 +294,24 @@ Ut aliquam sollicitudin leo.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQm-ZS-LFD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2071" y="188"/>
+            <point key="canvasLocation" x="3889.8550724637685" y="187.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NZH-oq-Sbh">
             <objects>
                 <viewController id="fi0-Ab-RcX" customClass="ViewController" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lun-MT-Dy6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRεSS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjg-jb-iCn">
-                                <rect key="frame" x="77" y="294" width="260" height="117"/>
+                                <rect key="frame" x="77" y="382" width="260" height="117"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="98"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SxS-kt-Ada" customClass="RoundButton" customModule="PRESSUIStuff" customModuleProvider="target">
-                                <rect key="frame" x="77" y="515" width="260" height="50"/>
+                                <rect key="frame" x="77" y="603" width="260" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1vD-ol-cty"/>
@@ -322,7 +322,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UG4-3G-SMw" customClass="RoundButton" customModule="PRESSUIStuff" customModuleProvider="target">
-                                <rect key="frame" x="77" y="632" width="260" height="50"/>
+                                <rect key="frame" x="77" y="720" width="260" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Om3-1k-4SE"/>
@@ -334,7 +334,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </state>
                             </button>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgQ-s4-xTf">
-                                <rect key="frame" x="0.0" y="769" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="823" width="414" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="iqR-Dl-qXJ"/>
@@ -345,7 +345,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </items>
                             </tabBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-weightlifting-100" translatesAutoresizingMaskIntoConstraints="NO" id="Z7H-a0-doN">
-                                <rect key="frame" x="132" y="80" width="150" height="128"/>
+                                <rect key="frame" x="132" y="168" width="150" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -372,7 +372,7 @@ Ut aliquam sollicitudin leo.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3O-hY-LFB" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-267" y="188"/>
+            <point key="canvasLocation" x="1550.7246376811595" y="187.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6BO-XV-BXG">
@@ -394,7 +394,7 @@ Ut aliquam sollicitudin leo.</string>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VBy-M8-w3y" kind="show" id="KpI-wS-yLQ"/>
+                                    <segue destination="VBy-M8-w3y" kind="show" id="RH1-qA-Hx7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRεSS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsr-5r-Z81">
@@ -413,7 +413,7 @@ Ut aliquam sollicitudin leo.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-weightlifting-100" translatesAutoresizingMaskIntoConstraints="NO" id="9GC-ak-d1F">
-                                <rect key="frame" x="132" y="130" width="150" height="128"/>
+                                <rect key="frame" x="132" y="174" width="150" height="84"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qym-JB-hKL" customClass="RoundButton" customModule="PRESSUIStuff" customModuleProvider="target">
                                 <rect key="frame" x="71" y="632" width="272" height="50"/>
@@ -426,6 +426,9 @@ Ut aliquam sollicitudin leo.</string>
                                     <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jt9-df-ohr" kind="show" id="hbp-kV-vZm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -449,10 +452,11 @@ Ut aliquam sollicitudin leo.</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fIh-ko-k31"/>
                     </view>
+                    <navigationItem key="navigationItem" id="emF-t5-shC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBd-13-PrD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2386" y="188"/>
+            <point key="canvasLocation" x="-566.66666666666674" y="187.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aY6-aG-2B6">
@@ -489,7 +493,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRεSS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujd-aI-8b7">
-                                <rect key="frame" x="88" y="124" width="238" height="105.5"/>
+                                <rect key="frame" x="88" y="168" width="238" height="105.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="88"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -551,18 +555,18 @@ Ut aliquam sollicitudin leo.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gcb-9u-iCv" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1530" y="188"/>
+            <point key="canvasLocation" x="289.85507246376812" y="187.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OvX-Xb-7v0">
             <objects>
                 <viewController id="VBy-M8-w3y" customClass="ViewController" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eYS-eZ-Adm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDx-cs-NdS">
-                                <rect key="frame" x="0.0" y="421" width="414" height="421"/>
+                                <rect key="frame" x="0.0" y="509" width="414" height="421"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="421" id="HF7-cF-dJh"/>
@@ -575,7 +579,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ax-dg-c7t">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="420"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="420"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="JoV-tD-Gwi"/>
                                     <constraint firstAttribute="height" constant="420" id="geO-At-w5g"/>
@@ -586,7 +590,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have clients you will be sending workouts to." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hi-pK-ctp">
-                                <rect key="frame" x="50" y="621" width="314" height="120"/>
+                                <rect key="frame" x="50" y="709" width="314" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="314" id="4Dx-uI-58h"/>
                                     <constraint firstAttribute="height" constant="120" id="wBN-r6-aWy"/>
@@ -596,7 +600,7 @@ Ut aliquam sollicitudin leo.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are a casual lifter or have a personal trainer to tell you what to do." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjc-y2-mWE">
-                                <rect key="frame" x="50" y="199" width="314" height="121"/>
+                                <rect key="frame" x="50" y="287" width="314" height="121"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="121" id="ISc-yg-tL5"/>
                                     <constraint firstAttribute="width" constant="314" id="UFx-c4-Vgz"/>
@@ -635,11 +639,11 @@ Ut aliquam sollicitudin leo.</string>
             <objects>
                 <viewController id="f2A-5o-e8q" customClass="ViewController" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NJw-MF-P67">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-px-gUh">
-                                <rect key="frame" x="99" y="274" width="216" height="294"/>
+                                <rect key="frame" x="99" y="301" width="216" height="294"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xuT-88-Eg7">
                                         <rect key="frame" x="0.0" y="0.0" width="216" height="34"/>
@@ -674,7 +678,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVV-Jf-etX" customClass="RoundButton" customModule="PRESSUIStuff" customModuleProvider="target">
-                                <rect key="frame" x="157" y="646" width="100" height="50"/>
+                                <rect key="frame" x="157" y="673" width="100" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="fXL-c7-OK9"/>
@@ -689,7 +693,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MQx-8B-ycV">
-                                <rect key="frame" x="157" y="67" width="100" height="146.5"/>
+                                <rect key="frame" x="157" y="155" width="100" height="146.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icons8-barbell-100" translatesAutoresizingMaskIntoConstraints="NO" id="gvs-L8-qTz">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -737,14 +741,20 @@ Ut aliquam sollicitudin leo.</string>
             <objects>
                 <viewController id="al7-tk-UWW" customClass="ViewController" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4n-OG-yfX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iyA-ml-CFL">
-                                <rect key="frame" x="157" y="67" width="100" height="146.5"/>
+                                <rect key="frame" x="157" y="155" width="100" height="146.5"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koT-M2-spu">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icons8-dumbbell-100" translatesAutoresizingMaskIntoConstraints="NO" id="1ki-i9-LPt">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="146.5"/>
+                                        <rect key="frame" x="0.0" y="46.5" width="100" height="100"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -753,7 +763,7 @@ Ut aliquam sollicitudin leo.</string>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4B-Q6-Whl" customClass="RoundButton" customModule="PRESSUIStuff" customModuleProvider="target">
-                                <rect key="frame" x="157" y="626" width="100" height="50"/>
+                                <rect key="frame" x="157" y="653" width="100" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Kjn-Fq-QKy"/>
@@ -769,14 +779,8 @@ Ut aliquam sollicitudin leo.</string>
                                     <segue destination="fi0-Ab-RcX" kind="show" id="L0X-Mr-1HV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Coach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koT-M2-spu">
-                                <rect key="frame" x="162" y="187" width="91" height="39"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="5w1-5q-gGp">
-                                <rect key="frame" x="99" y="274" width="216" height="294"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="5w1-5q-gGp">
+                                <rect key="frame" x="99" y="301" width="216" height="294"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kBZ-0a-I0g">
                                         <rect key="frame" x="0.0" y="0.0" width="216" height="34"/>
@@ -818,13 +822,9 @@ Ut aliquam sollicitudin leo.</string>
                             <constraint firstItem="Ynd-jM-v31" firstAttribute="trailing" secondItem="J4B-Q6-Whl" secondAttribute="trailing" constant="157" id="Bh6-TG-7QK"/>
                             <constraint firstItem="iyA-ml-CFL" firstAttribute="top" secondItem="Ynd-jM-v31" secondAttribute="top" constant="67" id="HIL-Fg-e4y"/>
                             <constraint firstItem="J4B-Q6-Whl" firstAttribute="top" secondItem="5w1-5q-gGp" secondAttribute="bottom" constant="58" id="Qm8-hm-zrH"/>
-                            <constraint firstItem="koT-M2-spu" firstAttribute="top" secondItem="Ynd-jM-v31" secondAttribute="top" constant="187" id="YNt-um-7sK"/>
                             <constraint firstItem="J4B-Q6-Whl" firstAttribute="centerX" secondItem="d4n-OG-yfX" secondAttribute="centerX" id="bX7-Kg-N57"/>
-                            <constraint firstItem="koT-M2-spu" firstAttribute="centerX" secondItem="5w1-5q-gGp" secondAttribute="centerX" id="cYU-rv-rUe"/>
-                            <constraint firstItem="koT-M2-spu" firstAttribute="centerX" secondItem="iyA-ml-CFL" secondAttribute="centerX" id="fD4-5V-BCz"/>
                             <constraint firstItem="iyA-ml-CFL" firstAttribute="centerX" secondItem="d4n-OG-yfX" secondAttribute="centerX" id="hgD-Ck-opz"/>
                             <constraint firstItem="J4B-Q6-Whl" firstAttribute="leading" secondItem="Ynd-jM-v31" secondAttribute="leading" constant="157" id="li1-3W-oxW"/>
-                            <constraint firstItem="koT-M2-spu" firstAttribute="leading" secondItem="Ynd-jM-v31" secondAttribute="leading" constant="162" id="yWx-Yp-bJW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ynd-jM-v31"/>
                     </view>
@@ -832,7 +832,7 @@ Ut aliquam sollicitudin leo.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7b-cZ-OG9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="555" y="903"/>
+            <point key="canvasLocation" x="553.62318840579712" y="902.67857142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9rd-Ng-HBw">
@@ -968,7 +968,7 @@ Ut aliquam sollicitudin leo.</string>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7z-yo-Nrl">
-                                <rect key="frame" x="91" y="61" width="233" height="106"/>
+                                <rect key="frame" x="90.5" y="61" width="233" height="106"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="88"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1069,6 +1069,24 @@ Ut aliquam sollicitudin leo.</string>
             </objects>
             <point key="canvasLocation" x="3612" y="903"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZdE-JP-Gzo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2PJ-eh-kLS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xgn-3G-iW7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hXL-oF-o4s" kind="relationship" relationship="rootViewController" id="9PA-YM-kzV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8a-LM-smJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1476.8115942028987" y="187.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="icons8-barbell-100" width="100" height="100"/>
@@ -1079,6 +1097,6 @@ Ut aliquam sollicitudin leo.</string>
         <image name="plus" catalog="system" width="64" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="L0X-Mr-1HV"/>
+        <segue reference="8I5-c4-Nca"/>
     </inferredMetricsTieBreakers>
 </document>
