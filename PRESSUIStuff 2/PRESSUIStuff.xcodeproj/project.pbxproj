@@ -15,6 +15,8 @@
 		CAC2790B237CE8BD000E9AE4 /* TemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2790A237CE8BD000E9AE4 /* TemplateCell.swift */; };
 		CAC2790D237CE9F2000E9AE4 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2790C237CE9F2000E9AE4 /* WorkoutTemplate.swift */; };
 		CAC2790F237CEFFE000E9AE4 /* WorkoutHistoryListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2790E237CEFFE000E9AE4 /* WorkoutHistoryListScreen.swift */; };
+		CAC27911237DB6D5000E9AE4 /* WorkoutHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC27910237DB6D5000E9AE4 /* WorkoutHistoryCell.swift */; };
+		CAC27913237DB738000E9AE4 /* PastWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC27912237DB738000E9AE4 /* PastWorkout.swift */; };
 		F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61B2370A3C80094F16B /* AppDelegate.swift */; };
 		F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */; };
 		F2C3B6232370A3C80094F16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3B6212370A3C80094F16B /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 		CAC2790A237CE8BD000E9AE4 /* TemplateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCell.swift; sourceTree = "<group>"; };
 		CAC2790C237CE9F2000E9AE4 /* WorkoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTemplate.swift; sourceTree = "<group>"; };
 		CAC2790E237CEFFE000E9AE4 /* WorkoutHistoryListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryListScreen.swift; sourceTree = "<group>"; };
+		CAC27910237DB6D5000E9AE4 /* WorkoutHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryCell.swift; sourceTree = "<group>"; };
+		CAC27912237DB738000E9AE4 /* PastWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastWorkout.swift; sourceTree = "<group>"; };
 		F2C3B6182370A3C80094F16B /* PRESSUIStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRESSUIStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C3B61B2370A3C80094F16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,13 +121,15 @@
 				F2C3B61B2370A3C80094F16B /* AppDelegate.swift */,
 				F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */,
 				F2C3B6212370A3C80094F16B /* Main.storyboard */,
-				CAC2790C237CE9F2000E9AE4 /* WorkoutTemplate.swift */,
-				CAC2790A237CE8BD000E9AE4 /* TemplateCell.swift */,
 				CAC27900237CDF32000E9AE4 /* ExerciseCell.swift */,
 				CAC27902237CDF9E000E9AE4 /* Exercise.swift */,
 				CAC278FE237CDAA1000E9AE4 /* ExerciseListScreen.swift */,
-				CAC2790E237CEFFE000E9AE4 /* WorkoutHistoryListScreen.swift */,
+				CAC2790A237CE8BD000E9AE4 /* TemplateCell.swift */,
 				CAC27906237CE51E000E9AE4 /* TemplateListScreen.swift */,
+				CAC2790C237CE9F2000E9AE4 /* WorkoutTemplate.swift */,
+				CAC27910237DB6D5000E9AE4 /* WorkoutHistoryCell.swift */,
+				CAC27912237DB738000E9AE4 /* PastWorkout.swift */,
+				CAC2790E237CEFFE000E9AE4 /* WorkoutHistoryListScreen.swift */,
 				F2C3B6242370A3C90094F16B /* Assets.xcassets */,
 				F2C3B6262370A3C90094F16B /* LaunchScreen.storyboard */,
 				F2C3B6292370A3C90094F16B /* Info.plist */,
@@ -283,6 +289,7 @@
 				CAC2790F237CEFFE000E9AE4 /* WorkoutHistoryListScreen.swift in Sources */,
 				CAC2790D237CE9F2000E9AE4 /* WorkoutTemplate.swift in Sources */,
 				CAC27907237CE51E000E9AE4 /* TemplateListScreen.swift in Sources */,
+				CAC27913237DB738000E9AE4 /* PastWorkout.swift in Sources */,
 				CAC2790B237CE8BD000E9AE4 /* TemplateCell.swift in Sources */,
 				CAC0DACA2375F5CC00A04BF6 /* RoundButton.swift in Sources */,
 				F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */,
@@ -290,6 +297,7 @@
 				CAC27901237CDF32000E9AE4 /* ExerciseCell.swift in Sources */,
 				CAC278FF237CDAA1000E9AE4 /* ExerciseListScreen.swift in Sources */,
 				CAC27903237CDF9E000E9AE4 /* Exercise.swift in Sources */,
+				CAC27911237DB6D5000E9AE4 /* WorkoutHistoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
