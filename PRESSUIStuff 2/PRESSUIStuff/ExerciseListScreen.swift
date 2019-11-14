@@ -9,22 +9,41 @@
 import UIKit
 
 class ExerciseListScreen: UIViewController {
-
+    var exerciseArray: [Exercise] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        exerciseArray = createArray()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func createArray() -> [Exercise] {
+        var tempArray: [Exercise] = []
+        
+        let exercise1 = Exercise (title: "Glute Bridge")
+        let exercise2 = Exercise (title: "Pull-Up")
+        let exercise3 = Exercise (title: "Squat")
+        let exercise4 = Exercise (title: "Deadlift")
+        
+        tempArray.append(exercise1)
+        tempArray.append(exercise2)
+        tempArray.append(exercise3)
+        tempArray.append(exercise4)
+        
+        return tempArray
     }
-    */
-
 }
+    
+extension ExerciseListScreen: UITableViewDataSource, UITableViewDelegate {
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return exerciseArray.count
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let exercise = exerciseArray[indexPath.row]
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ExerciseCell") as! ExerciseCell
+            
+            cell.setExercise(exercise: exercise)
+            
+            return cell
+        }
+    }
