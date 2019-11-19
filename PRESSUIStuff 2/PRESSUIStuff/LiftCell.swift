@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ExerciseCell: UITableViewCell {
+class LiftCell: UITableViewCell {
 
-    @IBOutlet weak var exerciseTitleLabel: UILabel!
+    @IBOutlet weak var liftTitleLabel: UILabel!
     
-    func setExercise(exercise: Exercise) {
-        exerciseTitleLabel.text = exercise.title
+    func setLift(lift: Lift) {
+        liftTitleLabel.text = lift.title
     }
 }

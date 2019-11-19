@@ -219,8 +219,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCY-JF-XUc">
-                                <rect key="frame" x="112.5" y="0.5" width="189" height="69.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCY-JF-XUc">
+                                <rect key="frame" x="173.5" y="0.5" width="67.5" height="69.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="58"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1054,10 +1054,10 @@ Ut aliquam sollicitudin leo.</string>
             </objects>
             <point key="canvasLocation" x="2100" y="989.73214285714278"/>
         </scene>
-        <!--Exercise List Screen-->
+        <!--Lift List Screen-->
         <scene sceneID="v3z-kb-O90">
             <objects>
-                <viewController id="vF3-K7-kPg" customClass="ExerciseListScreen" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vF3-K7-kPg" customClass="LiftListScreen" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hqD-PK-E9L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1087,7 +1087,7 @@ Ut aliquam sollicitudin leo.</string>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <searchBar contentMode="redraw" placeholder="Search for a workout..." translatesAutoresizingMaskIntoConstraints="NO" id="9yB-QO-Fzm">
+                            <searchBar contentMode="redraw" placeholder="Search for a lift..." translatesAutoresizingMaskIntoConstraints="NO" id="9yB-QO-Fzm">
                                 <rect key="frame" x="0.0" y="142" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -1095,7 +1095,7 @@ Ut aliquam sollicitudin leo.</string>
                                 <rect key="frame" x="0.0" y="198" width="414" height="644"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExerciseCell" rowHeight="50" id="TbD-cX-4Ld" customClass="ExerciseCell" customModule="PRESSUIStuff" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LiftCell" rowHeight="50" id="TbD-cX-4Ld" customClass="LiftCell" customModule="PRESSUIStuff" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TbD-cX-4Ld" id="Rsr-VB-yic">
@@ -1118,7 +1118,7 @@ Ut aliquam sollicitudin leo.</string>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="exerciseTitleLabel" destination="b0t-bd-Keq" id="RXe-zS-TeH"/>
+                                            <outlet property="liftTitleLabel" destination="b0t-bd-Keq" id="APB-Rp-zmt"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
