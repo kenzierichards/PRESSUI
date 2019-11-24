@@ -411,7 +411,7 @@ Ut aliquam sollicitudin leo.</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="mzF-HY-JJF" kind="show" id="r9c-0q-DJf"/>
+                                            <segue destination="mzF-HY-JJF" kind="show" id="APR-X4-y6T"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -441,10 +441,10 @@ Ut aliquam sollicitudin leo.</string>
             </objects>
             <point key="canvasLocation" x="6584" y="459"/>
         </scene>
-        <!--View Controller-->
+        <!--Mcalculator View Controller-->
         <scene sceneID="5NM-o5-fUE">
             <objects>
-                <viewController id="mzF-HY-JJF" sceneMemberID="viewController">
+                <viewController id="mzF-HY-JJF" customClass="RMcalculatorViewController" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ut-3r-QGq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -485,6 +485,9 @@ Ut aliquam sollicitudin leo.</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="rmButtom:" destination="mzF-HY-JJF" eventType="editingDidEnd" id="5A6-G2-mbU"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of Reps" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-Gs-yla">
                                 <rect key="frame" x="90" y="401" width="234" height="50"/>
@@ -506,6 +509,9 @@ Ut aliquam sollicitudin leo.</string>
                                 <state key="normal" title="Calculate 1RM">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="rmButton:" destination="mzF-HY-JJF" eventType="touchUpInside" id="WDp-uI-5SN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -531,10 +537,15 @@ Ut aliquam sollicitudin leo.</string>
                         <viewLayoutGuide key="safeArea" id="dme-eR-nUG"/>
                     </view>
                     <navigationItem key="navigationItem" id="abO-vC-G6y"/>
+                    <connections>
+                        <outlet property="repsTextField" destination="bBh-Gs-yla" id="Agk-Xn-N84"/>
+                        <outlet property="rmResultLabel" destination="O2S-Cs-hw1" id="vnk-WP-sml"/>
+                        <outlet property="weightTextField" destination="uH9-OW-T3O" id="Qkx-VO-2rz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ieZ-m5-akH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7559" y="460"/>
+            <point key="canvasLocation" x="7513" y="459"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NZH-oq-Sbh">
@@ -662,9 +673,6 @@ Ut aliquam sollicitudin leo.</string>
                                         <state key="normal" title="My Templates">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="vrT-Bu-eJC" kind="show" id="a2C-Yb-pw2"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziL-6W-h3h" customClass="RoundButton" customModule="PRESSUIStuff" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="418" width="300" height="100"/>
@@ -1456,15 +1464,15 @@ Ut aliquam sollicitudin leo.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xpe-dx-FAP">
-                                <rect key="frame" x="0.0" y="276" width="414" height="586"/>
+                                <rect key="frame" x="0.0" y="232" width="414" height="630"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <searchBar contentMode="redraw" placeholder="Search for a workout template..." translatesAutoresizingMaskIntoConstraints="NO" id="Po7-gC-w2t">
-                                <rect key="frame" x="0.0" y="235" width="414" height="56"/>
+                                <rect key="frame" x="0.0" y="191" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Templates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtf-T6-HKo">
-                                <rect key="frame" x="31" y="105" width="352.5" height="106"/>
+                                <rect key="frame" x="31" y="61" width="352.5" height="106"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="88"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

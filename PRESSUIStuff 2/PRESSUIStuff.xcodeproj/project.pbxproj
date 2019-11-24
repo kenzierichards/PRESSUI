@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAC0DACA2375F5CC00A04BF6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0DAC92375F5CC00A04BF6 /* RoundButton.swift */; };
+		F20503D3238B3388004D6D06 /* RMcalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20503D2238B3388004D6D06 /* RMcalculatorViewController.swift */; };
 		F229F669238B031B00E0B3A6 /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229F668238B031B00E0B3A6 /* WorkoutScreen.swift */; };
 		F229F66B238B037F00E0B3A6 /* WorkoutLiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229F66A238B037F00E0B3A6 /* WorkoutLiftCell.swift */; };
 		F229F671238B08A500E0B3A6 /* WorkoutLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229F670238B08A500E0B3A6 /* WorkoutLift.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		CAC0DAC92375F5CC00A04BF6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		F20503D2238B3388004D6D06 /* RMcalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMcalculatorViewController.swift; sourceTree = "<group>"; };
 		F229F668238B031B00E0B3A6 /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
 		F229F66A238B037F00E0B3A6 /* WorkoutLiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLiftCell.swift; sourceTree = "<group>"; };
 		F229F670238B08A500E0B3A6 /* WorkoutLift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLift.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */,
 				F2C3B61F2370A3C80094F16B /* MainViewController.swift */,
 				F2C3B6212370A3C80094F16B /* Main.storyboard */,
+				F20503D2238B3388004D6D06 /* RMcalculatorViewController.swift */,
 				F229F670238B08A500E0B3A6 /* WorkoutLift.swift */,
 				F229F66A238B037F00E0B3A6 /* WorkoutLiftCell.swift */,
 				F229F668238B031B00E0B3A6 /* WorkoutScreen.swift */,
@@ -277,6 +280,7 @@
 				F229F669238B031B00E0B3A6 /* WorkoutScreen.swift in Sources */,
 				F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */,
 				F229F671238B08A500E0B3A6 /* WorkoutLift.swift in Sources */,
+				F20503D3238B3388004D6D06 /* RMcalculatorViewController.swift in Sources */,
 				F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
