@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CAC0DACA2375F5CC00A04BF6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0DAC92375F5CC00A04BF6 /* RoundButton.swift */; };
+		F229F669238B031B00E0B3A6 /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229F668238B031B00E0B3A6 /* WorkoutScreen.swift */; };
+		F229F66B238B037F00E0B3A6 /* WorkoutLiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229F66A238B037F00E0B3A6 /* WorkoutLiftCell.swift */; };
+		F229F671238B08A500E0B3A6 /* WorkoutLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F229F670238B08A500E0B3A6 /* WorkoutLift.swift */; };
 		F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61B2370A3C80094F16B /* AppDelegate.swift */; };
 		F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */; };
-		F2C3B6202370A3C80094F16B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61F2370A3C80094F16B /* ViewController.swift */; };
+		F2C3B6202370A3C80094F16B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61F2370A3C80094F16B /* MainViewController.swift */; };
 		F2C3B6232370A3C80094F16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3B6212370A3C80094F16B /* Main.storyboard */; };
 		F2C3B6252370A3C90094F16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C3B6242370A3C90094F16B /* Assets.xcassets */; };
 		F2C3B6282370A3C90094F16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3B6262370A3C90094F16B /* LaunchScreen.storyboard */; };
@@ -37,10 +40,13 @@
 
 /* Begin PBXFileReference section */
 		CAC0DAC92375F5CC00A04BF6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		F229F668238B031B00E0B3A6 /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
+		F229F66A238B037F00E0B3A6 /* WorkoutLiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLiftCell.swift; sourceTree = "<group>"; };
+		F229F670238B08A500E0B3A6 /* WorkoutLift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLift.swift; sourceTree = "<group>"; };
 		F2C3B6182370A3C80094F16B /* PRESSUIStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRESSUIStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C3B61B2370A3C80094F16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2C3B61F2370A3C80094F16B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C3B61F2370A3C80094F16B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F2C3B6222370A3C80094F16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C3B6242370A3C90094F16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C3B6272370A3C90094F16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,8 +110,11 @@
 			children = (
 				F2C3B61B2370A3C80094F16B /* AppDelegate.swift */,
 				F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */,
-				F2C3B61F2370A3C80094F16B /* ViewController.swift */,
+				F2C3B61F2370A3C80094F16B /* MainViewController.swift */,
 				F2C3B6212370A3C80094F16B /* Main.storyboard */,
+				F229F670238B08A500E0B3A6 /* WorkoutLift.swift */,
+				F229F66A238B037F00E0B3A6 /* WorkoutLiftCell.swift */,
+				F229F668238B031B00E0B3A6 /* WorkoutScreen.swift */,
 				F2C3B6242370A3C90094F16B /* Assets.xcassets */,
 				F2C3B6262370A3C90094F16B /* LaunchScreen.storyboard */,
 				F2C3B6292370A3C90094F16B /* Info.plist */,
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC0DACA2375F5CC00A04BF6 /* RoundButton.swift in Sources */,
-				F2C3B6202370A3C80094F16B /* ViewController.swift in Sources */,
+				F2C3B6202370A3C80094F16B /* MainViewController.swift in Sources */,
+				F229F66B238B037F00E0B3A6 /* WorkoutLiftCell.swift in Sources */,
+				F229F669238B031B00E0B3A6 /* WorkoutScreen.swift in Sources */,
 				F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */,
+				F229F671238B08A500E0B3A6 /* WorkoutLift.swift in Sources */,
 				F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
