@@ -17,12 +17,17 @@ class RMcalculatorViewController: UIViewController
     @IBOutlet weak var weightTextField: UITextField!
     @IBOutlet weak var rmResultLabel: UILabel!
     @IBOutlet weak var repsTextField: UITextField!
+    @IBOutlet weak var oneRMButton: RoundButton!
     
-    @IBAction func rmButton(_ sender: Any) {
-        let reps = Double( self.repsTextField.text ?? "") ?? 12
+    @IBAction func oneRMButtonPressed(_ sender: Any) {
+        let reps = Double(self.repsTextField.text ?? "") ?? 12
         let weight = Double (self.weightTextField.text ?? "") ?? 0
         
-        let rmResult = (weight/(1.0278 - 0.0278 * reps))
-        self.rmResultLabel.text = " \(rmResult)"    }
+        let rmResult = Int(weight/(1.0278 - 0.0278 * reps))
+        self.rmResultLabel.text = " \(rmResult) lb"
+    }
+    
 }
+    
+
 
