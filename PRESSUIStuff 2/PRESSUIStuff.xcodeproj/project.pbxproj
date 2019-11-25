@@ -20,6 +20,10 @@
 		CAC27907237CE51E000E9AE4 /* TemplateListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC27906237CE51E000E9AE4 /* TemplateListScreen.swift */; };
 		CAC2790B237CE8BD000E9AE4 /* TemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2790A237CE8BD000E9AE4 /* TemplateCell.swift */; };
 		CAC2790D237CE9F2000E9AE4 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2790C237CE9F2000E9AE4 /* WorkoutTemplate.swift */; };
+		CADCC872238C998300B33942 /* WorkoutLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCC86E238C998300B33942 /* WorkoutLift.swift */; };
+		CADCC873238C998300B33942 /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCC86F238C998300B33942 /* WorkoutScreen.swift */; };
+		CADCC874238C998300B33942 /* RMcalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCC870238C998300B33942 /* RMcalculatorViewController.swift */; };
+		CADCC875238C998300B33942 /* WorkoutLiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADCC871238C998300B33942 /* WorkoutLiftCell.swift */; };
 		F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61B2370A3C80094F16B /* AppDelegate.swift */; };
 		F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */; };
 		F2C3B6232370A3C80094F16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3B6212370A3C80094F16B /* Main.storyboard */; };
@@ -60,6 +64,10 @@
 		CAC27906237CE51E000E9AE4 /* TemplateListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateListScreen.swift; sourceTree = "<group>"; };
 		CAC2790A237CE8BD000E9AE4 /* TemplateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCell.swift; sourceTree = "<group>"; };
 		CAC2790C237CE9F2000E9AE4 /* WorkoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTemplate.swift; sourceTree = "<group>"; };
+		CADCC86E238C998300B33942 /* WorkoutLift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutLift.swift; path = "../../../PRESSUIBRANCH/PRESSUIStuff 2/PRESSUIStuff/WorkoutLift.swift"; sourceTree = "<group>"; };
+		CADCC86F238C998300B33942 /* WorkoutScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutScreen.swift; path = "../../../PRESSUIBRANCH/PRESSUIStuff 2/PRESSUIStuff/WorkoutScreen.swift"; sourceTree = "<group>"; };
+		CADCC870238C998300B33942 /* RMcalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RMcalculatorViewController.swift; path = "../../../PRESSUIBRANCH/PRESSUIStuff 2/PRESSUIStuff/RMcalculatorViewController.swift"; sourceTree = "<group>"; };
+		CADCC871238C998300B33942 /* WorkoutLiftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutLiftCell.swift; path = "../../../PRESSUIBRANCH/PRESSUIStuff 2/PRESSUIStuff/WorkoutLiftCell.swift"; sourceTree = "<group>"; };
 		F2C3B6182370A3C80094F16B /* PRESSUIStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRESSUIStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C3B61B2370A3C80094F16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +139,10 @@
 				CA47CF2E2383297300BB1DA6 /* LiftHistory.swift */,
 				CA47CF2A2383288A00BB1DA6 /* LiftHistoryScreen.swift */,
 				CA47CF2223831B9E00BB1DA6 /* WorkoutHistory.swift */,
+				CADCC870238C998300B33942 /* RMcalculatorViewController.swift */,
+				CADCC86E238C998300B33942 /* WorkoutLift.swift */,
+				CADCC871238C998300B33942 /* WorkoutLiftCell.swift */,
+				CADCC86F238C998300B33942 /* WorkoutScreen.swift */,
 				CA47CF2023831B2000BB1DA6 /* WorkoutHistoryCell.swift */,
 				CA47CF1E23831A0400BB1DA6 /* WorkoutHistoryListScreen.swift */,
 				CAC27900237CDF32000E9AE4 /* LiftCell.swift */,
@@ -297,10 +309,14 @@
 			files = (
 				CA47CF2323831B9E00BB1DA6 /* WorkoutHistory.swift in Sources */,
 				CA47CF2F2383297300BB1DA6 /* LiftHistory.swift in Sources */,
+				CADCC873238C998300B33942 /* WorkoutScreen.swift in Sources */,
 				CA47CF1F23831A0400BB1DA6 /* WorkoutHistoryListScreen.swift in Sources */,
 				CAC2790D237CE9F2000E9AE4 /* WorkoutTemplate.swift in Sources */,
 				CAC27907237CE51E000E9AE4 /* TemplateListScreen.swift in Sources */,
 				CAC2790B237CE8BD000E9AE4 /* TemplateCell.swift in Sources */,
+				CADCC872238C998300B33942 /* WorkoutLift.swift in Sources */,
+				CADCC874238C998300B33942 /* RMcalculatorViewController.swift in Sources */,
+				CADCC875238C998300B33942 /* WorkoutLiftCell.swift in Sources */,
 				CAC0DACA2375F5CC00A04BF6 /* RoundButton.swift in Sources */,
 				F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */,
 				F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */,
