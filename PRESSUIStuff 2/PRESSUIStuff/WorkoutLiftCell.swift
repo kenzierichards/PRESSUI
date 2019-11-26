@@ -16,7 +16,7 @@ class WorkoutLiftCell: UITableViewCell {
     
     func setWorkoutLift(workoutLift: WorkoutLift)
     {
-        setNum.text = String(workoutLift.setNum)
+        setNum.text = "Set " + String(workoutLift.setNum)
         weightNum.text = String(workoutLift.weightNum)
         repNum.text = String(workoutLift.repNum)
     }

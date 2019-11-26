@@ -11,6 +11,7 @@ import UIKit
 class WorkoutScreen: UIViewController {
 
     var liftSets: [WorkoutLift] = []
+    var liftName = ["Hip Thrust", "Squat", "Bench Press"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,5 +47,9 @@ extension WorkoutScreen: UITableViewDataSource, UITableViewDelegate {
         cell.setWorkoutLift(workoutLift: workoutSet)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return liftName[section]
     }
 }
