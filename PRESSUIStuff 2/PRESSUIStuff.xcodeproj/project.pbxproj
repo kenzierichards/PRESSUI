@@ -24,6 +24,7 @@
 		CADC0A3E239597E100CD028A /* WorkoutLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC0A3D239597E100CD028A /* WorkoutLift.swift */; };
 		CADC0A402395980100CD028A /* WorkoutLiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC0A3F2395980100CD028A /* WorkoutLiftCell.swift */; };
 		CADC0A422395983800CD028A /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC0A412395983800CD028A /* WorkoutScreen.swift */; };
+		CADC0A4423959C5D00CD028A /* AddNewLiftScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC0A4323959C5D00CD028A /* AddNewLiftScreen.swift */; };
 		F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61B2370A3C80094F16B /* AppDelegate.swift */; };
 		F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */; };
 		F2C3B6232370A3C80094F16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3B6212370A3C80094F16B /* Main.storyboard */; };
@@ -68,6 +69,7 @@
 		CADC0A3D239597E100CD028A /* WorkoutLift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLift.swift; sourceTree = "<group>"; };
 		CADC0A3F2395980100CD028A /* WorkoutLiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLiftCell.swift; sourceTree = "<group>"; };
 		CADC0A412395983800CD028A /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
+		CADC0A4323959C5D00CD028A /* AddNewLiftScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewLiftScreen.swift; sourceTree = "<group>"; };
 		F2C3B6182370A3C80094F16B /* PRESSUIStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRESSUIStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C3B61B2370A3C80094F16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				F2C3B61B2370A3C80094F16B /* AppDelegate.swift */,
 				F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */,
 				F2C3B6212370A3C80094F16B /* Main.storyboard */,
+				CADC0A4323959C5D00CD028A /* AddNewLiftScreen.swift */,
 				CADC0A3D239597E100CD028A /* WorkoutLift.swift */,
 				CADC0A3F2395980100CD028A /* WorkoutLiftCell.swift */,
 				CADC0A412395983800CD028A /* WorkoutScreen.swift */,
@@ -310,6 +313,7 @@
 				CA47CF2323831B9E00BB1DA6 /* WorkoutHistory.swift in Sources */,
 				CADC0A3E239597E100CD028A /* WorkoutLift.swift in Sources */,
 				CADC0A402395980100CD028A /* WorkoutLiftCell.swift in Sources */,
+				CADC0A4423959C5D00CD028A /* AddNewLiftScreen.swift in Sources */,
 				CA47CF2F2383297300BB1DA6 /* LiftHistory.swift in Sources */,
 				CA47CF1F23831A0400BB1DA6 /* WorkoutHistoryListScreen.swift in Sources */,
 				CAC2790D237CE9F2000E9AE4 /* WorkoutTemplate.swift in Sources */,

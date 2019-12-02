@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Add New Lift Screen-->
         <scene sceneID="hgc-K8-fEx">
             <objects>
-                <viewController id="BxW-3v-pwl" sceneMemberID="viewController">
+                <viewController id="BxW-3v-pwl" customClass="AddNewLiftScreen" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IY3-o8-TqC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,10 +95,13 @@
                         <viewLayoutGuide key="safeArea" id="GEH-sK-xbI"/>
                     </view>
                     <navigationItem key="navigationItem" id="MjM-hk-VSQ"/>
+                    <connections>
+                        <outlet property="bodyPartPicker" destination="iue-nZ-cz8" id="aqV-8L-M1m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sN5-Mi-iCG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4402.898550724638" y="-504.24107142857139"/>
+            <point key="canvasLocation" x="5712" y="-230"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DyQ-Ke-gvh">
@@ -1164,9 +1167,6 @@
                                 <state key="normal" title="I'm Done!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="gql-43-FNA" kind="show" id="uWz-9c-0S8"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1285,7 +1285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cm-8k-Kok" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2009" y="1008"/>
+            <point key="canvasLocation" x="3901" y="-565"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZRU-uB-jSW">
@@ -1540,7 +1540,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XQV-6k-jeo">
-                                <rect key="frame" x="0.0" y="116" width="414" height="692"/>
+                                <rect key="frame" x="0.0" y="116" width="414" height="629"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WorkoutLiftCell" rowHeight="50" id="OMi-SC-oED" customClass="WorkoutLiftCell" customModule="PRESSUIStuff" customModuleProvider="target">
@@ -1599,17 +1599,31 @@
                                     <outlet property="delegate" destination="Tf3-zm-EoU" id="Xrz-8r-JZC"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Up-JA-NEg" customClass="RoundButton" customModule="PRESSUIStuff" customModuleProvider="target">
+                                <rect key="frame" x="156" y="764" width="103" height="44"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="I'm Done!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gql-43-FNA" kind="show" id="rYA-bn-Sds"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="oBv-2f-DzG" firstAttribute="centerX" secondItem="k7D-p1-WPB" secondAttribute="centerX" id="0Sb-gx-qkI"/>
+                            <constraint firstItem="00p-xB-LWP" firstAttribute="trailing" secondItem="7Up-JA-NEg" secondAttribute="trailing" constant="155" id="0cz-tJ-XUW"/>
                             <constraint firstItem="00p-xB-LWP" firstAttribute="trailing" secondItem="QHX-JL-wW3" secondAttribute="trailing" constant="13" id="0oq-gn-30A"/>
                             <constraint firstItem="XQV-6k-jeo" firstAttribute="trailing" secondItem="00p-xB-LWP" secondAttribute="trailing" id="4jC-La-YU2"/>
+                            <constraint firstItem="7Up-JA-NEg" firstAttribute="leading" secondItem="00p-xB-LWP" secondAttribute="leading" constant="156" id="9ZT-JD-TDZ"/>
                             <constraint firstItem="6hi-ZS-lXy" firstAttribute="top" secondItem="oBv-2f-DzG" secondAttribute="bottom" id="FYh-iL-RIE"/>
                             <constraint firstItem="QHX-JL-wW3" firstAttribute="top" secondItem="00p-xB-LWP" secondAttribute="top" constant="12" id="RLZ-9n-NgS"/>
+                            <constraint firstItem="7Up-JA-NEg" firstAttribute="top" secondItem="XQV-6k-jeo" secondAttribute="bottom" constant="19" id="Tjj-o5-DIG"/>
                             <constraint firstItem="XQV-6k-jeo" firstAttribute="top" secondItem="6hi-ZS-lXy" secondAttribute="bottom" constant="8" id="U3R-L9-aAg"/>
                             <constraint firstItem="oBv-2f-DzG" firstAttribute="top" secondItem="00p-xB-LWP" secondAttribute="top" id="dId-45-dtU"/>
-                            <constraint firstItem="00p-xB-LWP" firstAttribute="bottom" secondItem="XQV-6k-jeo" secondAttribute="bottom" id="dT1-Dt-QfJ"/>
+                            <constraint firstItem="00p-xB-LWP" firstAttribute="bottom" secondItem="XQV-6k-jeo" secondAttribute="bottom" constant="63" id="dT1-Dt-QfJ"/>
+                            <constraint firstItem="7Up-JA-NEg" firstAttribute="bottom" secondItem="00p-xB-LWP" secondAttribute="bottom" id="dpj-6I-B4p"/>
                             <constraint firstItem="QHX-JL-wW3" firstAttribute="centerY" secondItem="oBv-2f-DzG" secondAttribute="centerY" id="g2v-Jm-JwX"/>
                             <constraint firstItem="6hi-ZS-lXy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="00p-xB-LWP" secondAttribute="leading" id="iAW-En-XLI"/>
                             <constraint firstItem="QHX-JL-wW3" firstAttribute="leading" secondItem="oBv-2f-DzG" secondAttribute="trailing" constant="-7" id="kBi-97-zUw"/>
@@ -1624,7 +1638,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyD-pw-SnV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3009" y="-565"/>
+            <point key="canvasLocation" x="3008.6956521739135" y="-565.17857142857144"/>
         </scene>
     </scenes>
     <resources>
