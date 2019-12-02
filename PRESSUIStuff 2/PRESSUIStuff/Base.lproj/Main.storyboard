@@ -816,7 +816,6 @@
         <!--View Controller-->
         <scene sceneID="43f-Hb-JcF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gTz-qF-ahy" sceneMemberID="firstResponder"/>
                 <viewController id="uVU-8C-9hs" customClass="ViewController" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FDt-49-Ihz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -903,6 +902,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="TKv-rW-TyV"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gTz-qF-ahy" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1009" y="188"/>
         </scene>
