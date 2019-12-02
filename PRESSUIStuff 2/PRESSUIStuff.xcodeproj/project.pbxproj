@@ -13,6 +13,7 @@
 		CA47CF2B2383288A00BB1DA6 /* LiftHistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47CF2A2383288A00BB1DA6 /* LiftHistoryScreen.swift */; };
 		CA47CF2D238328D600BB1DA6 /* LiftHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47CF2C238328D600BB1DA6 /* LiftHistoryCell.swift */; };
 		CA47CF2F2383297300BB1DA6 /* LiftHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47CF2E2383297300BB1DA6 /* LiftHistory.swift */; };
+		CA985EDA2395D72E00450921 /* LiftScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA985ED92395D72E00450921 /* LiftScreen.swift */; };
 		CAC0DACA2375F5CC00A04BF6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0DAC92375F5CC00A04BF6 /* RoundButton.swift */; };
 		CAC278FF237CDAA1000E9AE4 /* LiftListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC278FE237CDAA1000E9AE4 /* LiftListScreen.swift */; };
 		CAC27901237CDF32000E9AE4 /* LiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC27900237CDF32000E9AE4 /* LiftCell.swift */; };
@@ -58,6 +59,7 @@
 		CA47CF2A2383288A00BB1DA6 /* LiftHistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftHistoryScreen.swift; sourceTree = "<group>"; };
 		CA47CF2C238328D600BB1DA6 /* LiftHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftHistoryCell.swift; sourceTree = "<group>"; };
 		CA47CF2E2383297300BB1DA6 /* LiftHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftHistory.swift; sourceTree = "<group>"; };
+		CA985ED92395D72E00450921 /* LiftScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftScreen.swift; sourceTree = "<group>"; };
 		CAC0DAC92375F5CC00A04BF6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		CAC278FE237CDAA1000E9AE4 /* LiftListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftListScreen.swift; sourceTree = "<group>"; };
 		CAC27900237CDF32000E9AE4 /* LiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftCell.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				F2C3B61B2370A3C80094F16B /* AppDelegate.swift */,
 				F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */,
 				F2C3B6212370A3C80094F16B /* Main.storyboard */,
+				CA985ED92395D72E00450921 /* LiftScreen.swift */,
 				CADC0A4323959C5D00CD028A /* AddNewLiftScreen.swift */,
 				CADC0A3D239597E100CD028A /* WorkoutLift.swift */,
 				CADC0A3F2395980100CD028A /* WorkoutLiftCell.swift */,
@@ -316,6 +319,7 @@
 				CADC0A4423959C5D00CD028A /* AddNewLiftScreen.swift in Sources */,
 				CA47CF2F2383297300BB1DA6 /* LiftHistory.swift in Sources */,
 				CA47CF1F23831A0400BB1DA6 /* WorkoutHistoryListScreen.swift in Sources */,
+				CA985EDA2395D72E00450921 /* LiftScreen.swift in Sources */,
 				CAC2790D237CE9F2000E9AE4 /* WorkoutTemplate.swift in Sources */,
 				CAC27907237CE51E000E9AE4 /* TemplateListScreen.swift in Sources */,
 				CADC0A422395983800CD028A /* WorkoutScreen.swift in Sources */,

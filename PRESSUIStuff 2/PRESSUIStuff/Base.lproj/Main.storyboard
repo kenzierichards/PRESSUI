@@ -1287,28 +1287,20 @@
             </objects>
             <point key="canvasLocation" x="3901" y="-565"/>
         </scene>
-        <!--View Controller-->
+        <!--Lift Screen-->
         <scene sceneID="ZRU-uB-jSW">
             <objects>
-                <viewController id="uSP-bK-Rxc" sceneMemberID="viewController">
+                <viewController id="uSP-bK-Rxc" customClass="LiftScreen" customModule="PRESSUIStuff" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xl6-iY-rfb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwg-uk-Q2W">
-                                <rect key="frame" x="112.5" y="44.5" width="189" height="69.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwg-uk-Q2W">
+                                <rect key="frame" x="173.5" y="44.5" width="67.5" height="69.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="58"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIc-KI-QM8">
-                                <rect key="frame" x="0.0" y="122" width="414" height="261"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body part(s)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhQ-UX-xyj">
                                 <rect key="frame" x="161.5" y="391" width="91" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1359,40 +1351,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bj6-Vb-PuK">
+                                <rect key="frame" x="1" y="122" width="413" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="dIc-KI-QM8" firstAttribute="top" secondItem="zwg-uk-Q2W" secondAttribute="bottom" constant="8" id="1M0-CC-jqL"/>
                             <constraint firstItem="cVO-vY-mHH" firstAttribute="leading" secondItem="zds-Fe-KbF" secondAttribute="leading" constant="20" id="3H6-A8-tiJ"/>
                             <constraint firstItem="zds-Fe-KbF" firstAttribute="trailing" secondItem="cVO-vY-mHH" secondAttribute="trailing" constant="20" id="3hu-9L-fvl"/>
-                            <constraint firstItem="LhQ-UX-xyj" firstAttribute="top" secondItem="dIc-KI-QM8" secondAttribute="bottom" constant="8" id="Ec3-K6-Fgx"/>
                             <constraint firstItem="zds-Fe-KbF" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LhQ-UX-xyj" secondAttribute="trailing" id="HSM-gd-sOf"/>
-                            <constraint firstItem="dIc-KI-QM8" firstAttribute="leading" secondItem="zds-Fe-KbF" secondAttribute="leading" id="JLY-Hw-Nm7"/>
-                            <constraint firstItem="dIc-KI-QM8" firstAttribute="top" secondItem="zwg-uk-Q2W" secondAttribute="bottom" constant="8" id="KCP-pi-1V1"/>
                             <constraint firstItem="lP4-ss-3wN" firstAttribute="centerX" secondItem="xl6-iY-rfb" secondAttribute="centerX" id="Qe3-fL-9X5"/>
                             <constraint firstItem="zds-Fe-KbF" firstAttribute="bottom" secondItem="lP4-ss-3wN" secondAttribute="bottom" constant="22" id="SxV-Ct-pIJ"/>
                             <constraint firstItem="lP4-ss-3wN" firstAttribute="centerX" secondItem="zwg-uk-Q2W" secondAttribute="centerX" id="Vyq-TV-XoN"/>
-                            <constraint firstItem="lP4-ss-3wN" firstAttribute="centerX" secondItem="dIc-KI-QM8" secondAttribute="centerX" id="YCO-Oc-NIZ"/>
                             <constraint firstItem="LhQ-UX-xyj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zds-Fe-KbF" secondAttribute="leading" id="aKI-9Y-T4R"/>
                             <constraint firstItem="lP4-ss-3wN" firstAttribute="centerX" secondItem="LhQ-UX-xyj" secondAttribute="centerX" id="bux-mL-sbV"/>
-                            <constraint firstItem="dIc-KI-QM8" firstAttribute="trailing" secondItem="zds-Fe-KbF" secondAttribute="trailing" id="c8z-zO-GjE"/>
                             <constraint firstItem="zwg-uk-Q2W" firstAttribute="top" secondItem="zds-Fe-KbF" secondAttribute="top" constant="44.5" id="db3-xq-Ty2"/>
-                            <constraint firstItem="LhQ-UX-xyj" firstAttribute="centerX" secondItem="dIc-KI-QM8" secondAttribute="centerX" id="eVK-mn-TGi"/>
                             <constraint firstItem="LhQ-UX-xyj" firstAttribute="top" secondItem="xl6-iY-rfb" secondAttribute="top" constant="391" id="ev7-wZ-aAH"/>
-                            <constraint firstItem="LhQ-UX-xyj" firstAttribute="top" secondItem="dIc-KI-QM8" secondAttribute="bottom" constant="8" id="fJF-fG-NVf"/>
                             <constraint firstItem="lP4-ss-3wN" firstAttribute="top" secondItem="cVO-vY-mHH" secondAttribute="bottom" constant="12" id="mgD-vc-w2t"/>
-                            <constraint firstItem="zwg-uk-Q2W" firstAttribute="centerX" secondItem="dIc-KI-QM8" secondAttribute="centerX" id="o5C-FE-H1Y"/>
                             <constraint firstItem="cVO-vY-mHH" firstAttribute="top" secondItem="LhQ-UX-xyj" secondAttribute="bottom" constant="7.5" id="q0v-Jn-xQ8"/>
-                            <constraint firstItem="dIc-KI-QM8" firstAttribute="leading" secondItem="zds-Fe-KbF" secondAttribute="leading" id="tGm-7E-id2"/>
                             <constraint firstItem="lP4-ss-3wN" firstAttribute="centerX" secondItem="xl6-iY-rfb" secondAttribute="centerX" id="xL5-xy-XmB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zds-Fe-KbF"/>
                     </view>
                     <navigationItem key="navigationItem" id="vib-Kh-D6a"/>
+                    <connections>
+                        <outlet property="video" destination="bj6-Vb-PuK" id="ljT-Qw-VkU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfd-f5-x5R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7125" y="459"/>
+            <point key="canvasLocation" x="7124.6376811594209" y="458.70535714285711"/>
         </scene>
         <!--Mcalculator View Controller-->
         <scene sceneID="AEv-tY-HBz">
