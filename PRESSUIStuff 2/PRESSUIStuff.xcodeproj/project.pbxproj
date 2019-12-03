@@ -26,6 +26,7 @@
 		CADC0A402395980100CD028A /* WorkoutLiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC0A3F2395980100CD028A /* WorkoutLiftCell.swift */; };
 		CADC0A422395983800CD028A /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC0A412395983800CD028A /* WorkoutScreen.swift */; };
 		CADC0A4423959C5D00CD028A /* AddNewLiftScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC0A4323959C5D00CD028A /* AddNewLiftScreen.swift */; };
+		F23731452396018500D947AF /* EndShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23731442396018500D947AF /* EndShare.swift */; };
 		F2C3B61C2370A3C80094F16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61B2370A3C80094F16B /* AppDelegate.swift */; };
 		F2C3B61E2370A3C80094F16B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */; };
 		F2C3B6232370A3C80094F16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3B6212370A3C80094F16B /* Main.storyboard */; };
@@ -72,6 +73,7 @@
 		CADC0A3F2395980100CD028A /* WorkoutLiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLiftCell.swift; sourceTree = "<group>"; };
 		CADC0A412395983800CD028A /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
 		CADC0A4323959C5D00CD028A /* AddNewLiftScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewLiftScreen.swift; sourceTree = "<group>"; };
+		F23731442396018500D947AF /* EndShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EndShare.swift; path = PRESSUIStuff/EndShare.swift; sourceTree = "<group>"; };
 		F2C3B6182370A3C80094F16B /* PRESSUIStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRESSUIStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C3B61B2370A3C80094F16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C3B61D2370A3C80094F16B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		F2C3B60F2370A3C80094F16B = {
 			isa = PBXGroup;
 			children = (
+				F23731442396018500D947AF /* EndShare.swift */,
 				CAC0DAC92375F5CC00A04BF6 /* RoundButton.swift */,
 				F2C3B61A2370A3C80094F16B /* PRESSUIStuff */,
 				F2C3B6312370A3CA0094F16B /* PRESSUIStuffTests */,
@@ -332,6 +335,7 @@
 				CAC278FF237CDAA1000E9AE4 /* LiftListScreen.swift in Sources */,
 				CAC27903237CDF9E000E9AE4 /* Lift.swift in Sources */,
 				CA47CF2D238328D600BB1DA6 /* LiftHistoryCell.swift in Sources */,
+				F23731452396018500D947AF /* EndShare.swift in Sources */,
 				CA47CF2B2383288A00BB1DA6 /* LiftHistoryScreen.swift in Sources */,
 				CA47CF2123831B2000BB1DA6 /* WorkoutHistoryCell.swift in Sources */,
 			);
